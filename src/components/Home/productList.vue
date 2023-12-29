@@ -23,7 +23,7 @@ import { ref } from "vue";
 const data = useCartStore();
 let productToShow = ref(8);
 let done = ref(false);
-fetch('../../product.json')
+fetch('../../../json/product.json')
   .then(response => response.json())
   .then(json =>
     data.products = json,
