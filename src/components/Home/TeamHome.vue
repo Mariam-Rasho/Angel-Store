@@ -27,7 +27,7 @@ export default {
   },
   data() {
     return {
-      url: "/json/team.json",
+      url: "../../team.json",
       teams: [],
     }
   }, created() {
